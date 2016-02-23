@@ -1,0 +1,206 @@
+/*general*/
+body{
+	display: block;
+	width: 100%;
+	border: none;
+	margin: 0;
+}
+
+#content{
+	position: relative;
+	width:50%;
+	margin:0 auto;
+}
+
+/* styles for header */
+header {
+	background-color:rgba(0,0,0,0.8);
+	border-bottom: white solid 3px;
+	height:90px;
+	font-family: Avenir;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+ul {
+	list-style:none;
+	float: right;
+	margin-top: 20px;
+	
+}
+li {
+	/*font-family:
+	font-size:*/
+	color: white;
+	margin:1.5em;
+	float:left;
+}
+li:hover {
+	color: #ffcd00;
+}
+
+hr {
+	/*color:
+	width:*/
+}
+
+#logo {
+	width:59px;
+	margin-top: 20px;
+}
+
+#navigation{
+	position: relative;
+	width:50%;
+	margin:0 auto;
+}
+
+#hero{
+	position:absolute;
+	top:0px;
+	z-index: -1;
+}
+
+/* styles for introduction */
+
+h1{
+	color:#63666a;
+	font-size: 70px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+strong {
+	color: #0089dd;
+}
+
+
+#contact-content{
+	position:relative;
+	top:550px;
+	font-family: Avenir;
+}
+
+/* styles for form */
+
+form{
+	position:relative;
+	top:550px;
+	float: left;
+	width: 300px;
+}
+
+input{
+	width: 90%;
+	border: 1px solid #555;
+	border-radius: 2px;
+	padding: 7px;
+}
+
+textarea{
+	width: 90%;
+	border: 1px solid #555;
+	border-radius: 2px;
+	padding: 7px;
+}
+
+button{
+	width: 120px;
+	height: 40px;
+	box-shadow: none;
+	border-radius: 5px;
+	background-color: #0089dd;
+	border:none;
+	background-image: url(send.png);
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 26px;
+}
+
+button:hover {
+	background-color:#d9d9d6;
+}
+
+/*styles for contact info */
+
+aside{
+	display: block;
+	margin-right: 0;
+	position:relative;
+	top:550px;
+	font-family: Avenir;
+	float: right;
+	font-size: 12px;
+}
+
+#email{
+	color:#0089dd;
+}
+
+/*styles for footer */
+
+footer{
+	background-color:#636363;
+	position:relative;
+	width: 100%;
+	top:600px;
+	font-family: Avenir;
+	font-size: 12px;
+	color: white;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	float: left;
+}
+
+h5{
+	margin-bottom: 2px;
+}
+
+hr{
+	margin: 0px;
+}
+
+ul{
+	padding: 0;
+	margin-top: 20px;
+}
+
+#social-set{
+	float: left;
+}
+
+#social{
+	margin: 0;
+}
+
+.social-icon{
+	list-style: none;
+	float: left;
+	padding: 0;
+	color: white;
+	margin-right:18px;
+	width:18px;
+}
+
+#item-follow{
+	float: left;
+	margin-right: 50px;
+	width:150px;
+}
+
+#item-contact{
+	float: left;
+	margin-right: 50px;
+}
+
+#item-copyright{
+	float: left;
+}
+
+#footer-content{
+	position: relative;
+	width:50%;
+	margin:0 auto;
+}
